@@ -89,3 +89,10 @@ requirements = scripts/KlipperScreen-requirements.txt
 system_dependencies = scripts/system-dependencies.json
 managed_services = KlipperScreen
 
+[update_manager client ZeroGTheme]
+type = git_repo
+path = ~/zerog-mainsail-theme
+origin = https://github.com/ZeroGDesign/zerog-mainsail-theme.git
+install_script = install.sh
+is_system_service = False
+
